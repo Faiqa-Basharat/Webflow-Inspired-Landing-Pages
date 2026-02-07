@@ -1,0 +1,144 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #fcfbf8;
+  font-family: 'Space Grotesk';
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  gap:2rem;
+  margin:3rem 0 0 0;
+}
+.right{
+  display: flex;
+  gap:1.9rem;
+}
+.right a:hover{
+  text-decoration-style: dotted;
+}
+.navbar a{
+  color:black;
+  text-decoration: none;
+}
+.navbar a:hover{
+   text-decoration-style:dotted; 
+    text-decoration-line: underline;
+  color: black;
+} 
+ .hero{
+  display:grid;
+  grid-template-columns: 500px 652px;
+  gap:7rem;
+ }
+ .hero img{
+  width:70%;
+  height: 100vh;
+  margin-top:4rem;
+ }
+ .image{
+  grid-column: 2/3;
+ }
+.hero h1{
+  font-size:4rem;
+  font-weight: 200;
+  padding:0 7rem;
+  margin:4rem 0 0 2rem;
+}
+.hero p{
+  font-size:1rem;
+  font-weight: 200;
+  text-align: left;
+  padding:0 7rem;
+  margin:1rem 0 0 1.8rem;
+}
+.about{
+  background-color: black;
+  color: white;
+  margin: 5rem 0 0 0;
+  padding:3rem 0 4.5rem 2rem;
+}
+.about h3{
+  margin-bottom: 1rem;
+}
+.about p{
+  font-size: 4rem;
+}
+span{
+  font-size:2rem;
+  margin-left:1rem;
+}
+.about-it a{
+color:white;
+text-decoration: none;
+}
+.about-it a:hover{
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+.next{
+  float: right;
+  color: white;
+}
+.next:hover{
+  text-decoration-style: dotted;
+} 
+.maindiv{
+  background-image: url("palais-du-cirque.jpg");
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right 50%; 
+}
+.maindiv::before{
+  content:"";
+  position: absolute;
+  inset:0;
+  background: rgba(248, 247, 247, 0.6);
+  z-index: 0;
+}
+.box{
+  position:relative;
+  z-index: 1;
+  padding:8rem 0 4rem 0;
+  display: grid;
+  grid-template-columns: 600px 600px;  
+}
+.box1 h1{
+  margin:6.9rem 0 0 1.5rem;
+  font-size:2.7rem;
+  font-weight: 200;
+  padding:0 2rem;
+}
+footer{
+margin:6rem 0 7rem 0;
+}
+.left{
+  display: flex;
+  gap:1rem;
+  float:left;
+  margin:0 0 2rem 1rem;
+}
+.left a{
+  text-decoration: none;
+  color:#353433;
+}
+.left a:hover{
+    text-decoration-line: underline;
+   text-decoration-style: dotted;
+}
+.word{
+  display: flex;
+  float: right;
+  margin:0 2rem 0 0;
+  color:#353433;
+}
+.word a{
+  color:#353433;
+}
+.word a:hover{
+  text-decoration-style: dotted;
+}
